@@ -187,6 +187,7 @@ export default function HeroSection() {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 glow-effect transition-all duration-300 group"
+              onClick={() => window.open('/resume.pdf', '_blank')}
               >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Download CV
